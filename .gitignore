@@ -1,0 +1,13 @@
+# APIキーなどの秘密情報（絶対にコミットしない）
+.env
+.env.local
+*.key
+
+# 収集データ
+data/videos.json
+data/subs/*.vtt
+data/subs/*.txt
+data/meta/
+
+# OS
+.DS_Store
